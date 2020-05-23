@@ -1,59 +1,115 @@
 ul {
 
 }
+
+
 ul li {
 	list-style: none;
 	display: inline-block;
 	line-height: 70px;
 }
+
+
 ul li a {
 	display: block;
 	text-decoration: none;
 	font-size: 30px;
-	color: black;
+	color: white;
 	padding: 0 20px;
 }
+
+
 a:hover {
-	color: orange;
-	background-color: black;
+	color: white;
+	background-color: #141414;
 
 }
+
+
 .wrapper{
 	margin: 0 auto 1cm;
 	width: 1000px;
 }
+
+
 nav {
 	width: 100%;
 	height: 70px;
-	background-color: orange;
+	background-color: #262222;
 }
+
+
 body{
-	background-color:black;
-	color:orange;
-	}
-h1{
-	margin: 0 10% 0 10%;
-	text-align:center;
-	color:orange;
-	border: 2px solid white;
-	}
-p#intro {
-	margin: 0 10% 0 10%;
-	font-size: 30px;
-	color: orange;
+	color:white;
+	background-color: #141414;
 }
+
+
+h1{
+	font-size: 40px;
+	text-align: left;
+	color: white;
+	background-color:rgba(0,0,0,0.5);
+	margin-right: 67%;
+}
+
+
+p#intro {
+	margin: 0 10% 0 15%;
+	font-size: 30px;
+	color: white;
+}
+
+
 table#table1 {
-	border: 3px solid white;
+	color: black;
+	border-collapse: collapse;
+	border: 3px solid black;
 	text-align: center;
 	font-size: 30px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin: 5% 20% 5% 20%;
 	width: 60%;
-	}
+	background-color: white;
+}
+
+
 th,td{
-	border: 2px solid white;
-	}
+	border: 2px solid black;
+	margin: 5% 20% 5% 20%;
+}
+
+
 p{
 	font-size:30px;
-	margin: 0 10% 1.5cm 10%;
-	}
+	margin: 0 10% 1.5cm 15%;
+}
+
+
+body#homebg{
+	background-image: url(https://image.freepik.com/free-vector/abstract-ornamental-flowers-background_23-2148391494.jpg);
+	background-size: cover;
+}
+
+
+body#rolexbg {
+	background-image: url(https://www.thejewelleryeditor.com/media/images_thumbnails/filer_public_thumbnails/filer_public/69/9d/699d4cf5-671f-4d12-b361-70125b1a4ffe/a-rolex-sky-dweller.png__1536x0_q75_crop-scale_subsampling-2_upscale-false.jpg);
+	background-size: cover;
+}
+
+
+body#audebg {
+	background-image: url(https://k8q7r7a2.stackpathcdn.com/wp-content/uploads/2016/02/Audemars-Piguet-Royal-Oak-Chronograph-26320-yellow-gold-SIHH-2016-4.jpg);
+	background-size: cover;
+}
+
+
+body#patekpbg {
+	background-image: url(https://secure-journal.hautehorlogerie.org/wp-content/uploads/2018/03/Patek-Philippe-r%C3%A9f%C3%A9rence-7150-b.jpg);
+	background-size: cover;
+}
+
+
+body#jacobbg{
+	background-image: url(https://www.hautetime.com/wp-content/uploads/2015/09/Jacob-Co-Astronomia-Tourbillon-Watch-Baselworld-2015-Close-Up.jpg);
+	background-size: cover;
+}
