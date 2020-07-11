@@ -58,6 +58,8 @@ p#intro {
 	margin: 0 10% 0 15%;
 	font-size: 30px;
 	color: white;
+	background-color: rgba(0,0,0,0.8);
+	padding: 3%;
 }
 
 
@@ -82,21 +84,17 @@ p#parainfo{
 .flextable{
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0px 0px 0px 13%;
 }
 
 
 .flextable > div {
-	border: 20px;
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
-	background-color: #994700;
-	width: 40px;
-}
-
-
-th,td{
-	border: 2px solid black;
-	margin: 5% 20% 5% 20%;
+	margin: 20px 0px 20px 3%;
+	padding: 80px 30px 30px 40px;
+	background-color: rgba(0,0,0,0.8);
+	height: 150px;
+	width: 150px;
+	font-size: 30px;
 }
 
 
