@@ -41,7 +41,7 @@ nav {
 
 body{
 	color:white;
-	background-color: #141414;
+	background-color: solid black;
 }
 
 
@@ -61,15 +61,36 @@ p#intro {
 }
 
 
-table#table1 {
-	color: black;
-	border-collapse: collapse;
-	border: 3px solid black;
-	text-align: center;
+.Info {
+	margin: 300px 10% 0 15%;
 	font-size: 30px;
-	margin: 5% 20% 5% 20%;
-	width: 60%;
-	background-color: white;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+p#parainfo{
+	margin-bottom: 20px;
+}
+
+
+.spacing{
+	display:flex;
+	align-items: center;
+}
+
+.flextable{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.flextable > div {
+	border: 20px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	background-color: #994700;
+	width: 40px;
 }
 
 
@@ -86,7 +107,7 @@ p{
 
 
 body#homebg{
-	background-image: url(https://image.freepik.com/free-vector/abstract-ornamental-flowers-background_23-2148391494.jpg);
+	background-color: #bf7117;
 	background-size: cover;
 }
 
@@ -112,4 +133,17 @@ body#patekpbg {
 body#jacobbg{
 	background-image: url(https://www.hautetime.com/wp-content/uploads/2015/09/Jacob-Co-Astronomia-Tourbillon-Watch-Baselworld-2015-Close-Up.jpg);
 	background-size: cover;
+}
+
+
+.onethree{
+	height: 400px;
+	max-width: 100%; 
+}
+
+
+.img24{
+	height: 400px;
+	width: 400px;
+	float:left; 
 }
