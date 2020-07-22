@@ -73,6 +73,14 @@ p#intro {
 	background-color: rgba(0,0,0,0.95);
 }
 
+.alert {
+	color: white;
+	background-color: black;
+	padding-left: 23%;
+	font-size: 30px;
+	text-decoration: none;
+}
+
 
 p#parainfo{
 	margin-bottom: 20px;
@@ -100,6 +108,7 @@ p#parainfo{
 	font-size: 30px;
 	background-color: rgba(0,0,0);
 	text-align: center;
+	color: white;
 }
 
 
