@@ -13,7 +13,7 @@ ul li {
 ul li a {
 	display: block;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 27px;
 	color: white;
 	padding: 0 20px;
 }
@@ -54,30 +54,30 @@ h1{
 }
 
 h1#home1 {
-	background-color: rgba(0,0,0);
+	background-color: rgba(0,0,0,0.6);
 }
 
 p#intro {
 	margin: 0 10% 0 15%;
 	font-size: 30px;
 	color: white;
-	background-color: rgba(0,0,0);
+	background-color: rgba(0,0,0,0.7);
 	padding: 3%;
 }
 
 
 .Info {
 	margin: 300px 10% 0 15%;
-	font-size: 30px;
+	font-size: 27px;
 	color: white;
 	background-color: rgba(0,0,0,0.95);
 }
 
 .alert {
 	color: white;
-	background-color: black;
+	background-color: rgba(0,0,0,0.6);
 	padding-left: 23%;
-	font-size: 30px;
+	font-size: 27px;
 	text-decoration: none;
 }
 
@@ -102,11 +102,11 @@ p#parainfo{
 
 .flextable >div {
 	margin: 50px 10px 40px 20px;
-	padding: 80px 30px 40px 20px;
+	padding: 80px 30px 40px 30px;
 	height: 150px;
 	width: 200px;
 	font-size: 30px;
-	background-color: rgba(0,0,0);
+	background-color: rgba(0,0,0,0.8);
 	text-align: center;
 	color: white;
 }
@@ -121,6 +121,7 @@ p{
 body#homebg{
 	background-color: white;
 	background-size: cover;
+	background-image: url(https://cdn3.volusion.com/ahxzg.dspsm/v/vspfiles/photos/LCWB-REM-2.jpg?v-cache=1468591205);
 }
 
 
